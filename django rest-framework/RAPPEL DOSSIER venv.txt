@@ -1,0 +1,1 @@
+RAPPEL : La """""CREATION""""" du DOSSIER """""venv""""" SE FAIT DANS LE """""dossier""""" NOMME """""django rest-framework"""""
