@@ -1,0 +1,735 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github18/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18 (master)
+$ git clone https://github.com/Mariogit20/Flutter_Dart_API_DJANGO.git
+Cloning into 'Flutter_Dart_API_DJANGO'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18 (master)
+$ cd Flutter_Dart_API_DJANGO
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (main)
+$ git branch Test
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (main)
+$ git checkout Test
+Switched to branch 'Test'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Test)
+$ git push --set-upstream origin Test
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Test' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/Flutter_Dart_API_DJANGO/pull/new/Tes
+remote:
+To https://github.com/Mariogit20/Flutter_Dart_API_DJANGO.git
+ * [new branch]      Test -> Test
+branch 'Test' set up to track 'origin/Test'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Test)
+$ git branch Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Test)
+$ git checkout Dev
+Switched to branch 'Dev'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git push --set-upstream origin Dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Dev' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/Flutter_Dart_API_DJANGO/pull/new/Dev
+remote:
+To https://github.com/Mariogit20/Flutter_Dart_API_DJANGO.git
+ * [new branch]      Dev -> Dev
+branch 'Dev' set up to track 'origin/Dev'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git add .gitignore
+fatal: pathspec '.gitignore' did not match any files
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ cd "django rest-framework"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (Dev)
+$ git commit -m "first commit"
+[Dev ee16aa5] first commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 django rest-framework/.gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (Dev)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 361 bytes | 120.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/Flutter_Dart_API_DJANGO.git
+   5a8fc30..ee16aa5  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (Dev)
+$ git add *
+The following paths are ignored by one of your .gitignore files:
+django rest-framework/venv
+hint: Use -f if you really want to add them.
+hint: Disable this message with "git config advice.addIgnoredFile false"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (Dev)
+$ git commit -m "second commit"
+[Dev 30e7691] second commit
+ 112 files changed, 482 insertions(+)
+ create mode 100644 django rest-framework/LIENS API/LIEN API.txt
+ create mode 100644 django rest-framework/RAPPEL DOSSIER venv.txt
+ create mode 100644 django rest-framework/src/contact/__init__.py
+ create mode 100644 django rest-framework/src/contact/__pycache__/__init__.cpyth
+on-311.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/__init__.cpyth
+on-312.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/admin.cpython-
+311.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/admin.cpython-
+312.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/apps.cpython-3
+11.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/apps.cpython-3
+12.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/models.cpython
+-311.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/models.cpython
+-312.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/serializers.cp
+ython-311.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/serializers.cp
+ython-312.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/urls.cpython-3
+11.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/urls.cpython-3
+12.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/views.cpython-
+311.pyc
+ create mode 100644 django rest-framework/src/contact/__pycache__/views.cpython-
+312.pyc
+ create mode 100644 django rest-framework/src/contact/admin.py
+ create mode 100644 django rest-framework/src/contact/apps.py
+ create mode 100644 django rest-framework/src/contact/migrations/0001_initial.py
+ create mode 100644 django rest-framework/src/contact/migrations/__init__.py
+ create mode 100644 django rest-framework/src/contact/migrations/__pycache__/000
+1_initial.cpython-311.pyc
+ create mode 100644 django rest-framework/src/contact/migrations/__pycache__/000
+1_initial.cpython-312.pyc
+ create mode 100644 django rest-framework/src/contact/migrations/__pycache__/__i
+nit__.cpython-311.pyc
+ create mode 100644 django rest-framework/src/contact/migrations/__pycache__/__i
+nit__.cpython-312.pyc
+ create mode 100644 django rest-framework/src/contact/models.py
+ create mode 100644 django rest-framework/src/contact/serializers.py
+ create mode 100644 django rest-framework/src/contact/tests.py
+ create mode 100644 django rest-framework/src/contact/urls.py
+ create mode 100644 django rest-framework/src/contact/views.py
+ create mode 100644 django rest-framework/src/crud_api/__init__.py
+ create mode 100644 django rest-framework/src/crud_api/__pycache__/__init__.cpyt
+hon-311.pyc
+ create mode 100644 django rest-framework/src/crud_api/__pycache__/__init__.cpyt
+hon-312.pyc
+ create mode 100644 django rest-framework/src/crud_api/__pycache__/settings.cpyt
+hon-311.pyc
+ create mode 100644 django rest-framework/src/crud_api/__pycache__/settings.cpyt
+hon-312.pyc
+ create mode 100644 django rest-framework/src/crud_api/__pycache__/urls.cpython-
+311.pyc
+ create mode 100644 django rest-framework/src/crud_api/__pycache__/urls.cpython-
+312.pyc
+ create mode 100644 django rest-framework/src/crud_api/__pycache__/wsgi.cpython-
+311.pyc
+ create mode 100644 django rest-framework/src/crud_api/__pycache__/wsgi.cpython-
+312.pyc
+ create mode 100644 django rest-framework/src/crud_api/asgi.py
+ create mode 100644 django rest-framework/src/crud_api/settings.py
+ create mode 100644 django rest-framework/src/crud_api/urls.py
+ create mode 100644 django rest-framework/src/crud_api/wsgi.py
+ create mode 100644 django rest-framework/src/db.sqlite3
+ create mode 100644 django rest-framework/src/manage.py
+ create mode 100644 django rest-framework/src/media/produits/camion-citerne.jpg
+ create mode 100644 django rest-framework/src/media/produits/camion_fourgon.JPG
+ create mode 100644 django rest-framework/src/media/produits/camion_frigorifique
+.jpg
+ create mode 100644 django rest-framework/src/media/produits/camion_tautliner.JP
+G
+ create mode 100644 django rest-framework/src/produits/__init__.py
+ create mode 100644 django rest-framework/src/produits/__pycache__/__init__.cpyt
+hon-311.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/__init__.cpyt
+hon-312.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/admin.cpython
+-311.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/admin.cpython
+-312.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/apps.cpython-
+311.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/apps.cpython-
+312.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/models.cpytho
+n-311.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/models.cpytho
+n-312.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/serializers.c
+python-311.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/serializers.c
+python-312.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/urls.cpython-
+311.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/urls.cpython-
+312.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/views.cpython
+-311.pyc
+ create mode 100644 django rest-framework/src/produits/__pycache__/views.cpython
+-312.pyc
+ create mode 100644 django rest-framework/src/produits/admin.py
+ create mode 100644 django rest-framework/src/produits/apps.py
+ create mode 100644 django rest-framework/src/produits/migrations/0001_initial.p
+y
+ create mode 100644 django rest-framework/src/produits/migrations/0002_alter_pro
+duit_image.py
+ create mode 100644 django rest-framework/src/produits/migrations/__init__.py
+ create mode 100644 django rest-framework/src/produits/migrations/__pycache__/00
+01_initial.cpython-311.pyc
+ create mode 100644 django rest-framework/src/produits/migrations/__pycache__/00
+01_initial.cpython-312.pyc
+ create mode 100644 django rest-framework/src/produits/migrations/__pycache__/00
+02_alter_produit_image.cpython-311.pyc
+ create mode 100644 django rest-framework/src/produits/migrations/__pycache__/__
+init__.cpython-311.pyc
+ create mode 100644 django rest-framework/src/produits/migrations/__pycache__/__
+init__.cpython-312.pyc
+ create mode 100644 django rest-framework/src/produits/models.py
+ create mode 100644 django rest-framework/src/produits/serializers.py
+ create mode 100644 django rest-framework/src/produits/tests.py
+ create mode 100644 django rest-framework/src/produits/urls.py
+ create mode 100644 django rest-framework/src/produits/views.py
+ create mode 100644 django rest-framework/src/requirements.txt
+ create mode 100644 django rest-framework/src/slider/__init__.py
+ create mode 100644 django rest-framework/src/slider/__pycache__/__init__.cpytho
+n-311.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/__init__.cpytho
+n-312.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/admin.cpython-3
+11.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/admin.cpython-3
+12.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/apps.cpython-31
+1.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/apps.cpython-31
+2.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/models.cpython-
+311.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/models.cpython-
+312.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/serializers.cpy
+thon-311.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/serializers.cpy
+thon-312.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/urls.cpython-31
+1.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/urls.cpython-31
+2.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/views.cpython-3
+11.pyc
+ create mode 100644 django rest-framework/src/slider/__pycache__/views.cpython-3
+12.pyc
+ create mode 100644 django rest-framework/src/slider/admin.py
+ create mode 100644 django rest-framework/src/slider/apps.py
+ create mode 100644 django rest-framework/src/slider/migrations/0001_initial.py
+ create mode 100644 django rest-framework/src/slider/migrations/0002_rename_vale
+ur_slider_titre.py
+ create mode 100644 django rest-framework/src/slider/migrations/__init__.py
+ create mode 100644 django rest-framework/src/slider/migrations/__pycache__/0001
+_initial.cpython-311.pyc
+ create mode 100644 django rest-framework/src/slider/migrations/__pycache__/0001
+_initial.cpython-312.pyc
+ create mode 100644 django rest-framework/src/slider/migrations/__pycache__/0002
+_rename_valeur_slider_titre.cpython-311.pyc
+ create mode 100644 django rest-framework/src/slider/migrations/__pycache__/__in
+it__.cpython-311.pyc
+ create mode 100644 django rest-framework/src/slider/migrations/__pycache__/__in
+it__.cpython-312.pyc
+ create mode 100644 django rest-framework/src/slider/models.py
+ create mode 100644 django rest-framework/src/slider/serializers.py
+ create mode 100644 django rest-framework/src/slider/tests.py
+ create mode 100644 django rest-framework/src/slider/urls.py
+ create mode 100644 django rest-framework/src/slider/views.py
+ create mode 100644 django rest-framework/src/static/image/produits/Screenshot_2
+0231124-215410_1.jpg
+ create mode 100644 django rest-framework/src/static/image/produits/instagram_li
+ke_heart_love_icon_181629.png
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (Dev)
+$ git push
+Enumerating objects: 130, done.
+Counting objects: 100% (130/130), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (123/123), done.
+Writing objects: 100% (128/128), 480.70 KiB | 7.28 MiB/s, done.
+Total 128 (delta 45), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (45/45), done.
+To https://github.com/Mariogit20/Flutter_Dart_API_DJANGO.git
+   ee16aa5..30e7691  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (Dev)
+$ cd ..
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ cd appapiproduit
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/appapiproduit (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/appapiproduit (Dev)
+$ git commit -m "third commit"
+[Dev 3ec533e] third commit
+ 1 file changed, 45 insertions(+)
+ create mode 100644 appapiproduit/.gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/appapiproduit (Dev)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 787 bytes | 787.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/Flutter_Dart_API_DJANGO.git
+   30e7691..3ec533e  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/appapiproduit (Dev)
+$ git add .
+warning: in the working copy of 'appapiproduit/.metadata', LF will be replaced b
+y CRLF the next time Git touches it
+warning: in the working copy of 'appapiproduit/linux/flutter/generated_plugin_re
+gistrant.cc', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'appapiproduit/linux/flutter/generated_plugin_re
+gistrant.h', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'appapiproduit/linux/flutter/generated_plugins.c
+make', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'appapiproduit/macos/Flutter/GeneratedPluginRegi
+strant.swift', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'appapiproduit/pubspec.lock', LF will be replace
+d by CRLF the next time Git touches it
+warning: in the working copy of 'appapiproduit/windows/flutter/generated_plugin_
+registrant.cc', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'appapiproduit/windows/flutter/generated_plugin_
+registrant.h', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'appapiproduit/windows/flutter/generated_plugins
+.cmake', LF will be replaced by CRLF the next time Git touches it
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/appapiproduit (Dev)
+$ git commit -m "fourth commit"
+[Dev b262993] fourth commit
+ 134 files changed, 5510 insertions(+)
+ create mode 100644 appapiproduit/.metadata
+ create mode 100644 appapiproduit/README.md
+ create mode 100644 appapiproduit/analysis_options.yaml
+ create mode 100644 appapiproduit/android/.gitignore
+ create mode 100644 appapiproduit/android/app/build.gradle.kts
+ create mode 100644 appapiproduit/android/app/src/debug/AndroidManifest.xml
+ create mode 100644 appapiproduit/android/app/src/main/AndroidManifest.xml
+ create mode 100644 appapiproduit/android/app/src/main/kotlin/com/example/appapi
+produit/MainActivity.kt
+ create mode 100644 appapiproduit/android/app/src/main/res/drawable-v21/launch_b
+ackground.xml
+ create mode 100644 appapiproduit/android/app/src/main/res/drawable/launch_backg
+round.xml
+ create mode 100644 appapiproduit/android/app/src/main/res/mipmap-hdpi/ic_launch
+er.png
+ create mode 100644 appapiproduit/android/app/src/main/res/mipmap-mdpi/ic_launch
+er.png
+ create mode 100644 appapiproduit/android/app/src/main/res/mipmap-xhdpi/ic_launc
+her.png
+ create mode 100644 appapiproduit/android/app/src/main/res/mipmap-xxhdpi/ic_laun
+cher.png
+ create mode 100644 appapiproduit/android/app/src/main/res/mipmap-xxxhdpi/ic_lau
+ncher.png
+ create mode 100644 appapiproduit/android/app/src/main/res/values-night/styles.x
+ml
+ create mode 100644 appapiproduit/android/app/src/main/res/values/styles.xml
+ create mode 100644 appapiproduit/android/app/src/profile/AndroidManifest.xml
+ create mode 100644 appapiproduit/android/build.gradle.kts
+ create mode 100644 appapiproduit/android/gradle.properties
+ create mode 100644 appapiproduit/android/gradle/wrapper/gradle-wrapper.properti
+es
+ create mode 100644 appapiproduit/android/settings.gradle.kts
+ create mode 100644 appapiproduit/ios/.gitignore
+ create mode 100644 appapiproduit/ios/Flutter/AppFrameworkInfo.plist
+ create mode 100644 appapiproduit/ios/Flutter/Debug.xcconfig
+ create mode 100644 appapiproduit/ios/Flutter/Release.xcconfig
+ create mode 100644 appapiproduit/ios/Runner.xcodeproj/project.pbxproj
+ create mode 100644 appapiproduit/ios/Runner.xcodeproj/project.xcworkspace/conte
+nts.xcworkspacedata
+ create mode 100644 appapiproduit/ios/Runner.xcodeproj/project.xcworkspace/xcsha
+reddata/IDEWorkspaceChecks.plist
+ create mode 100644 appapiproduit/ios/Runner.xcodeproj/project.xcworkspace/xcsha
+reddata/WorkspaceSettings.xcsettings
+ create mode 100644 appapiproduit/ios/Runner.xcodeproj/xcshareddata/xcschemes/Ru
+nner.xcscheme
+ create mode 100644 appapiproduit/ios/Runner.xcworkspace/contents.xcworkspacedat
+a
+ create mode 100644 appapiproduit/ios/Runner.xcworkspace/xcshareddata/IDEWorkspa
+ceChecks.plist
+ create mode 100644 appapiproduit/ios/Runner.xcworkspace/xcshareddata/WorkspaceS
+ettings.xcsettings
+ create mode 100644 appapiproduit/ios/Runner/AppDelegate.swift
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Contents.json
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-1024x1024@1x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-20x20@1x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-20x20@2x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-20x20@3x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-29x29@1x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-29x29@2x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-29x29@3x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-40x40@1x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-40x40@2x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-40x40@3x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-60x60@2x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-60x60@3x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-76x76@1x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-76x76@2x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+Icon-App-83.5x83.5@2x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/LaunchImage.imagese
+t/Contents.json
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/LaunchImage.imagese
+t/LaunchImage.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/LaunchImage.imagese
+t/LaunchImage@2x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/LaunchImage.imagese
+t/LaunchImage@3x.png
+ create mode 100644 appapiproduit/ios/Runner/Assets.xcassets/LaunchImage.imagese
+t/README.md
+ create mode 100644 appapiproduit/ios/Runner/Base.lproj/LaunchScreen.storyboard
+ create mode 100644 appapiproduit/ios/Runner/Base.lproj/Main.storyboard
+ create mode 100644 appapiproduit/ios/Runner/Info.plist
+ create mode 100644 appapiproduit/ios/Runner/Runner-Bridging-Header.h
+ create mode 100644 appapiproduit/ios/RunnerTests/RunnerTests.swift
+ create mode 100644 appapiproduit/lib/main.dart
+ create mode 100644 appapiproduit/lib/pages/about_page.dart
+ create mode 100644 appapiproduit/lib/pages/contact_page.dart
+ create mode 100644 appapiproduit/lib/pages/home_page.dart
+ create mode 100644 appapiproduit/lib/pages/login_page.dart
+ create mode 100644 appapiproduit/lib/pages/signin_page.dart
+ create mode 100644 appapiproduit/lib/widgets/header.dart
+ create mode 100644 appapiproduit/linux/.gitignore
+ create mode 100644 appapiproduit/linux/CMakeLists.txt
+ create mode 100644 appapiproduit/linux/flutter/CMakeLists.txt
+ create mode 100644 appapiproduit/linux/flutter/generated_plugin_registrant.cc
+ create mode 100644 appapiproduit/linux/flutter/generated_plugin_registrant.h
+ create mode 100644 appapiproduit/linux/flutter/generated_plugins.cmake
+ create mode 100644 appapiproduit/linux/runner/CMakeLists.txt
+ create mode 100644 appapiproduit/linux/runner/main.cc
+ create mode 100644 appapiproduit/linux/runner/my_application.cc
+ create mode 100644 appapiproduit/linux/runner/my_application.h
+ create mode 100644 appapiproduit/macos/.gitignore
+ create mode 100644 appapiproduit/macos/Flutter/Flutter-Debug.xcconfig
+ create mode 100644 appapiproduit/macos/Flutter/Flutter-Release.xcconfig
+ create mode 100644 appapiproduit/macos/Flutter/GeneratedPluginRegistrant.swift
+ create mode 100644 appapiproduit/macos/Runner.xcodeproj/project.pbxproj
+ create mode 100644 appapiproduit/macos/Runner.xcodeproj/project.xcworkspace/xcs
+hareddata/IDEWorkspaceChecks.plist
+ create mode 100644 appapiproduit/macos/Runner.xcodeproj/xcshareddata/xcschemes/
+Runner.xcscheme
+ create mode 100644 appapiproduit/macos/Runner.xcworkspace/contents.xcworkspaced
+ata
+ create mode 100644 appapiproduit/macos/Runner.xcworkspace/xcshareddata/IDEWorks
+paceChecks.plist
+ create mode 100644 appapiproduit/macos/Runner/AppDelegate.swift
+ create mode 100644 appapiproduit/macos/Runner/Assets.xcassets/AppIcon.appiconse
+t/Contents.json
+ create mode 100644 appapiproduit/macos/Runner/Assets.xcassets/AppIcon.appiconse
+t/app_icon_1024.png
+ create mode 100644 appapiproduit/macos/Runner/Assets.xcassets/AppIcon.appiconse
+t/app_icon_128.png
+ create mode 100644 appapiproduit/macos/Runner/Assets.xcassets/AppIcon.appiconse
+t/app_icon_16.png
+ create mode 100644 appapiproduit/macos/Runner/Assets.xcassets/AppIcon.appiconse
+t/app_icon_256.png
+ create mode 100644 appapiproduit/macos/Runner/Assets.xcassets/AppIcon.appiconse
+t/app_icon_32.png
+ create mode 100644 appapiproduit/macos/Runner/Assets.xcassets/AppIcon.appiconse
+t/app_icon_512.png
+ create mode 100644 appapiproduit/macos/Runner/Assets.xcassets/AppIcon.appiconse
+t/app_icon_64.png
+ create mode 100644 appapiproduit/macos/Runner/Base.lproj/MainMenu.xib
+ create mode 100644 appapiproduit/macos/Runner/Configs/AppInfo.xcconfig
+ create mode 100644 appapiproduit/macos/Runner/Configs/Debug.xcconfig
+ create mode 100644 appapiproduit/macos/Runner/Configs/Release.xcconfig
+ create mode 100644 appapiproduit/macos/Runner/Configs/Warnings.xcconfig
+ create mode 100644 appapiproduit/macos/Runner/DebugProfile.entitlements
+ create mode 100644 appapiproduit/macos/Runner/Info.plist
+ create mode 100644 appapiproduit/macos/Runner/MainFlutterWindow.swift
+ create mode 100644 appapiproduit/macos/Runner/Release.entitlements
+ create mode 100644 appapiproduit/macos/RunnerTests/RunnerTests.swift
+ create mode 100644 appapiproduit/pubspec.lock
+ create mode 100644 appapiproduit/pubspec.yaml
+ create mode 100644 appapiproduit/test/widget_test.dart
+ create mode 100644 appapiproduit/web/favicon.png
+ create mode 100644 appapiproduit/web/icons/Icon-192.png
+ create mode 100644 appapiproduit/web/icons/Icon-512.png
+ create mode 100644 appapiproduit/web/icons/Icon-maskable-192.png
+ create mode 100644 appapiproduit/web/icons/Icon-maskable-512.png
+ create mode 100644 appapiproduit/web/index.html
+ create mode 100644 appapiproduit/web/manifest.json
+ create mode 100644 appapiproduit/windows/.gitignore
+ create mode 100644 appapiproduit/windows/CMakeLists.txt
+ create mode 100644 appapiproduit/windows/flutter/CMakeLists.txt
+ create mode 100644 appapiproduit/windows/flutter/generated_plugin_registrant.cc
+ create mode 100644 appapiproduit/windows/flutter/generated_plugin_registrant.h
+ create mode 100644 appapiproduit/windows/flutter/generated_plugins.cmake
+ create mode 100644 appapiproduit/windows/runner/CMakeLists.txt
+ create mode 100644 appapiproduit/windows/runner/Runner.rc
+ create mode 100644 appapiproduit/windows/runner/flutter_window.cpp
+ create mode 100644 appapiproduit/windows/runner/flutter_window.h
+ create mode 100644 appapiproduit/windows/runner/main.cpp
+ create mode 100644 appapiproduit/windows/runner/resource.h
+ create mode 100644 appapiproduit/windows/runner/resources/app_icon.ico
+ create mode 100644 appapiproduit/windows/runner/runner.exe.manifest
+ create mode 100644 appapiproduit/windows/runner/utils.cpp
+ create mode 100644 appapiproduit/windows/runner/utils.h
+ create mode 100644 appapiproduit/windows/runner/win32_window.cpp
+ create mode 100644 appapiproduit/windows/runner/win32_window.h
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/appapiproduit (Dev)
+$ git push
+Enumerating objects: 189, done.
+Counting objects: 100% (189/189), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (156/156), done.
+Writing objects: 100% (187/187), 271.17 KiB | 2.51 MiB/s, done.
+Total 187 (delta 23), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (23/23), done.
+To https://github.com/Mariogit20/Flutter_Dart_API_DJANGO.git
+   3ec533e..b262993  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/appapiproduit (Dev)
+$ cd ..
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ cd "LIENS API"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/LIENS API (Dev)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/LIENS API (Dev)
+$ git commit -m "fifth commit"
+[Dev 5c9b92b] fifth commit
+ 1 file changed, 6 insertions(+)
+ create mode 100644 LIENS API/LIEN API.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/LIENS API (Dev)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 365 bytes | 365.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/Flutter_Dart_API_DJANGO.git
+   b262993..5c9b92b  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/LIENS API (Dev)
+$ cd ..
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git commit -m "seventh commit"
+[Dev feb9332] seventh commit
+ 5 files changed, 604 insertions(+)
+ create mode 100644 0 IMAGE MARCHE.png
+ create mode 100644 "Backend Api Django Et Frontend Flutter Dart alleg\303\251.m
+p4"
+ create mode 100644 Creer APPLICATION avec FLUTTER VSCode Exo2.txt
+ create mode 100644 PROGRAMME PRINCIPAL main.txt
+ create mode 100644 django rest-framework/.vscode/settings.json
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 19.05 MiB | 20.07 MiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ cd "/d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO"
+git remote -v
+origin  https://github.com/Mariogit20/Flutter_Dart_API_DJANGO.git (fetch)
+origin  https://github.com/Mariogit20/Flutter_Dart_API_DJANGO.git (push)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git remote set-url origin git@github.com:Mariogit20/Flutter_Dart_API_DJANGO.git
+git remote -v
+origin  git@github.com:Mariogit20/Flutter_Dart_API_DJANGO.git (fetch)
+origin  git@github.com:Mariogit20/Flutter_Dart_API_DJANGO.git (push)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ ls -al ~/.ssh
+total 37
+drwxr-xr-x 1 AzureAD+SPSSE02MEN 4096   0 Feb  8 11:27 ./
+drwxr-xr-x 1 AzureAD+SPSSE02MEN 4096   0 Feb 14 10:18 ../
+-rw-r--r-- 1 AzureAD+SPSSE02MEN 4096 419 Feb  5 17:08 id_ed25519
+-rw-r--r-- 1 AzureAD+SPSSE02MEN 4096 109 Feb  5 17:08 id_ed25519.pub
+-rw-r--r-- 1 AzureAD+SPSSE02MEN 4096 419 Feb  8 11:27 id_ed25519_mariogit20
+-rw-r--r-- 1 AzureAD+SPSSE02MEN 4096 109 Feb  8 11:27 id_ed25519_mariogit20.pub
+-rw-r--r-- 1 AzureAD+SPSSE02MEN 4096 828 Feb  5 17:20 known_hosts
+-rw-r--r-- 1 AzureAD+SPSSE02MEN 4096  92 Feb  5 17:05 known_hosts.old
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ ssh -T git@github.com
+Hi Mariogit20! You've successfully authenticated, but GitHub does not provide shell access.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git lfs version
+git-lfs/3.6.0 (GitHub; windows amd64; go 1.23.3; git 6340befc)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git remote -v
+origin  git@github.com:Mariogit20/Flutter_Dart_API_DJANGO.git (fetch)
+origin  git@github.com:Mariogit20/Flutter_Dart_API_DJANGO.git (push)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ cd "/d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO"
+git checkout Dev
+git lfs install
+git lfs track "*.mp4" "*.mov" "*.mkv" "*.avi"
+git add .gitattributes
+git commit -m "Track videos with Git LFS"
+Already on 'Dev'
+Your branch is ahead of 'origin/Dev' by 1 commit.
+  (use "git push" to publish your local commits)
+Updated Git hooks.
+Git LFS initialized.
+Tracking "*.mp4"
+Tracking "*.mov"
+Tracking "*.mkv"
+Tracking "*.avi"
+[Dev 9f83674] Track videos with Git LFS
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .gitattributes
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git lfs migrate import --include="*.mp4,*.mov,*.mkv,*.avi"
+migrate: override changes in your working copy?  All uncommitted changes will be
+ lost! [y/N] y
+migrate: changes in your working copy will be overridden ...
+migrate: Fetching remote refs: ..., done.
+migrate: Sorting commits: ..., done.
+migrate: Rewriting commits: 100% (2/2), done.
+  Dev   9f83674008175a5ff516e11116f523f76bdf0b5a -> 46d865557b152aa84dfacb4b0811
+b182f314f4b1
+migrate: Updating refs: ..., done.
+migrate: checkout: ..., done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git status
+git lfs ls-files
+git push --force-with-lease origin Dev
+On branch Dev
+Your branch is ahead of 'origin/Dev' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+d278f3f978 - Backend Api Django Et Frontend Flutter Dart allegé.mp4
+Connection to github.com closed by remote host.KB/s
+Uploading LFS objects: 100% (1/1), 36 MB | 57 KB/s, done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git fetch origin
+git log --oneline --decorate --graph -5
+git log --oneline --decorate --graph -5 origin/Dev
+* 46d8655 (HEAD -> Dev) Track videos with Git LFS
+* 88658cc seventh commit
+* 5c9b92b (origin/Dev) fifth commit
+* b262993 fourth commit
+* 3ec533e third commit
+* 5c9b92b (origin/Dev) fifth commit
+* b262993 fourth commit
+* 3ec533e third commit
+* 30e7691 second commit
+* ee16aa5 first commit
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git lfs push --all origin Dev
+Uploading LFS objects: 100% (1/1), 22 MB | 0 B/s, done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git push --force-with-lease origin Dev
+Uploading LFS objects: 100% (1/1), 22 MB | 0 B/s, done.
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 270.28 KiB | 838.00 KiB/s, done.
+Total 11 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To github.com:Mariogit20/Flutter_Dart_API_DJANGO.git
+   5c9b92b..46d8655  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git fetch origin
+git log --oneline --decorate --graph -5 origin/Dev
+* 46d8655 (HEAD -> Dev, origin/Dev) Track videos with Git LFS
+* 88658cc seventh commit
+* 5c9b92b fifth commit
+* b262993 fourth commit
+* 3ec533e third commit
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git lfs ls-files
+d278f3f978 - Backend Api Django Et Frontend Flutter Dart allegé.mp4
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$ git lfs status
+On branch Dev
+Objects to be pushed to origin/Dev:
+
+
+Objects to be committed:
+
+
+Objects not staged for commit:
+
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO (Dev)
+$
