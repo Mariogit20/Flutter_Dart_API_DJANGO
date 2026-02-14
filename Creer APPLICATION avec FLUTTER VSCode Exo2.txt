@@ -1,0 +1,570 @@
+D:\PYTHON FLUTTER\DART cours\CoursJanv\monapp\lib\pages
+
+
+
+I] OUVRIR VSCode , puis CREER une NOUVELLE APPLICATION    monapp
+
+PS D:\PYTHON FLUTTER\DART cours\CoursJanv> flutter create monapp 
+
+┌─────────────────────────────────────────────────────────┐
+│ A new version of Flutter is available!                  │
+│                                                         │
+│ To update to the latest version, run "flutter upgrade". │
+└─────────────────────────────────────────────────────────┘
+Creating project monapp...
+Resolving dependencies in `monapp`... (11.1s)
+Downloading packages...
+Got dependencies in `monapp`.
+Wrote 130 files.
+
+All done!
+You can find general documentation for Flutter at: https://docs.flutter.dev/
+Detailed API documentation is available at: https://api.flutter.dev/
+If you prefer video documentation, consider: https://www.youtube.com/c/flutterdev
+
+In order to run your application, type:
+
+  $ cd monapp
+  $ flutter run
+
+Your application code is in monapp\lib\main.dart.
+
+PS D:\PYTHON FLUTTER\DART cours\CoursJanv> cd monapp
+PS D:\PYTHON FLUTTER\DART cours\CoursJanv\monapp> flutter run
+Connected devices:
+Windows (desktop) • windows • windows-x64    • Microsoft Windows [version 10.0.19045.6456]
+Chrome (web)      • chrome  • web-javascript • Google Chrome 143.0.7499.193
+Edge (web)        • edge    • web-javascript • Microsoft Edge 143.0.3650.80
+[1]: Windows (windows)
+[2]: Chrome (chrome)
+[3]: Edge (edge)
+Please choose one (or "q" to quit): 3
+Launching lib\main.dart on Edge in debug mode...
+Waiting for connection from debug service on Edge...               88,4s
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+This app is linked to the debug service: ws://127.0.0.1:26050/XFHprAKzZ4Y=/ws
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+Debug service listening on ws://127.0.0.1:26050/XFHprAKzZ4Y=/ws
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on Edge is available at: http://127.0.0.1:26050/XFHprAKzZ4Y=
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+Starting application from main method in: org-dartlang-app:/web_entrypoint.dart.
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+The Flutter DevTools debugger and profiler on Edge is available at:
+http://127.0.0.1:9100?uri=http://127.0.0.1:26050/XFHprAKzZ4Y=
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+DebugService: Error serving requestsError: Unsupported operation: Cannot send Null
+
+
+
+
+
+
+
+II] TOUS DANS LE DOSSIER     lib
+
+1) DOSSIER """"pages"""" :
+FILE about_page.dart
+contact_page.dart
+home_page.dart
+login_page.dart
+signin_page.dart
+
+2) DOSSIER """"widgets"""" :
+header.dart
+
+3) main.dart
+
+
+
+REMARQUE IMPORTANTE ::::::::::::::::::::::::::::::::::
+Les FICHIERS """"about_page.dart"""" et """"contact_page.dart"""" et """"login_page.dart"""" et """"signin_page.dart"""" ont LE """"MEME CODE"""" mais seulement les """"NOMS DES CLASSES sont différentes"""" !!!!!!!!!!!!!!
+
+
+
+
+
+
+III] COPIER COLLER       le CODE suivant dans le FICHIER       home_page.dart :
+
+
+import 'dart:convert';
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http; 
+import '../widgets/header.dart';
+
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  List<Map<String, dynamic>> products = [];
+  bool loading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    fetchProducts();
+  }
+
+  Future<void> fetchProducts() async {
+    try {
+      final response = await http.get(
+        Uri.parse('https://fakestoreapi.com/products'),
+        headers: {'Accept': 'application/json'},
+      );
+      
+      if (response.statusCode == 200) {
+        final List<dynamic> data = json.decode(response.body);
+        setState(() {
+          products = List<Map<String, dynamic>>.from(data);
+          loading = false;
+        });
+      } else {
+        setState(() {
+          loading = false;
+        });
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text('Erreur HTTP ${response.statusCode}'),
+              backgroundColor: Colors.red,
+            ),
+          );
+        }
+      }
+    } catch (e) {
+      setState(() {
+        loading = false;
+      });
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Erreur de connexion: ${e.toString()}'),
+            backgroundColor: Colors.red,
+          ),
+        );
+      }
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    final isMobile = screenWidth < 600;
+    final isTablet = screenWidth >= 600 && screenWidth < 1024;
+
+    return Scaffold(
+      appBar: const Header(),
+      drawer: isMobile
+          ? Drawer(
+              child: ListView(
+                padding: EdgeInsets.zero,
+                children: [
+                  const DrawerHeader(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [Colors.green, Colors.lightGreen],
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
+                      ),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        Icon(Icons.shopping_cart, size: 40, color: Colors.white),
+                        SizedBox(height: 8),
+                        Text(
+                          'E-Shop',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        Text(
+                          'Votre boutique en ligne',
+                          style: TextStyle(
+                            color: Colors.white70,
+                            fontSize: 14,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  _drawerItem(context, Icons.home, "Accueil", '/home'),
+                  _drawerItem(context, Icons.category, "Catégories", '/categories'),
+                  _drawerItem(context, Icons.favorite, "Favoris", '/favorites'),
+                  _drawerItem(context, Icons.shopping_bag, "Panier", '/cart'),
+                  const Divider(),
+                  _drawerItem(context, Icons.person, "Mon Compte", '/profile'),
+                  _drawerItem(context, Icons.settings, "Paramètres", '/settings'),
+                  _drawerItem(context, Icons.help, "Aide", '/help'),
+                  const Divider(),
+                  _drawerItem(context, Icons.login, "Connexion", '/login'),
+                  _drawerItem(context, Icons.person_add, "Inscription", '/signup'),
+                ],
+              ),
+            )
+          : null,
+      body: loading
+          ? const Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  CircularProgressIndicator(
+                    valueColor: AlwaysStoppedAnimation<Color>(Colors.green),
+                  ),
+                  SizedBox(height: 16),
+                  Text(
+                    'Chargement des produits...',
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 16,
+                    ),
+                  ),
+                ],
+              ),
+            )
+          : RefreshIndicator(
+              onRefresh: fetchProducts,
+              color: Colors.green,
+              backgroundColor: Colors.white,
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: isMobile
+                    ? ListView.separated(
+                        itemCount: products.length,
+                        separatorBuilder: (context, index) => const SizedBox(height: 12),
+                        itemBuilder: (context, index) {
+                          return ProductCard(product: products[index]);
+                        },
+                      )
+                    : CustomScrollView(
+                        slivers: [
+                          SliverGrid(
+                            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                              crossAxisCount: isTablet ? 2 : 3,
+                              crossAxisSpacing: 12,
+                              mainAxisSpacing: 12,
+                              childAspectRatio: 0.75,
+                            ),
+                            delegate: SliverChildBuilderDelegate(
+                              (context, index) {
+                                return ProductCard(product: products[index]);
+                              },
+                              childCount: products.length,
+                            ),
+                          ),
+                        ],
+                      ),
+              ),
+            ),
+    );
+  }
+
+  Widget _drawerItem(BuildContext context, IconData icon, String title, String route) {
+    return ListTile(
+      leading: Icon(icon, color: Colors.green[700]),
+      title: Text(
+        title,
+        style: const TextStyle(fontWeight: FontWeight.w500),
+      ),
+      onTap: () {
+        Navigator.pop(context);
+        Navigator.pushNamed(context, route);
+      },
+      trailing: const Icon(Icons.chevron_right, size: 18),
+    );
+  }
+}
+
+class ProductCard extends StatelessWidget {
+  final Map<String, dynamic> product;
+  
+  const ProductCard({super.key, required this.product});
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      elevation: 4,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+      ),
+      clipBehavior: Clip.antiAlias,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Stack(
+            children: [
+              ClipRRect(
+                borderRadius: const BorderRadius.vertical(
+                  top: Radius.circular(16),
+                ),
+                child: Image.network(
+                  product['image'] ?? '',
+                  fit: BoxFit.contain,
+                  width: double.infinity,
+                  height: 180,
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) return child;
+                    return Container(
+                      height: 180,
+                      color: Colors.grey[200],
+                      child: Center(
+                        child: CircularProgressIndicator(
+                          value: loadingProgress.expectedTotalBytes != null
+                              ? loadingProgress.cumulativeBytesLoaded /
+                                  loadingProgress.expectedTotalBytes!
+                              : null,
+                          valueColor: AlwaysStoppedAnimation<Color>(Colors.green),
+                        ),
+                      ),
+                    );
+                  },
+                  errorBuilder: (context, error, stackTrace) {
+                    return Container(
+                      height: 180,
+                      color: Colors.grey[200],
+                      child: const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.broken_image, size: 50, color: Colors.grey),
+                          SizedBox(height: 8),
+                          Text(
+                            'Image non disponible',
+                            style: TextStyle(color: Colors.grey),
+                          ),
+                        ],
+                      ),
+                    );
+                  },
+                  semanticLabel: product['title'] ?? 'Image du produit',
+                ),
+              ),
+              Positioned(
+                top: 8,
+                right: 8,
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: Colors.green,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Text(
+                    '\$${product['price']?.toStringAsFixed(2) ?? '0.00'}',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 14,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+          Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        product['title']?.toString() ?? 'Sans titre',
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          height: 1.2,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  product['category']?.toString()?.toUpperCase() ?? '',
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: Colors.green[700],
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  product['description']?.toString() ?? '',
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                    fontSize: 13,
+                    color: Colors.grey,
+                    height: 1.4,
+                  ),
+                ),
+                const SizedBox(height: 12),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Row(
+                      children: [
+                        Icon(
+                          Icons.star,
+                          color: Colors.amber[600],
+                          size: 16,
+                        ),
+                        const SizedBox(width: 4),
+                        Text(
+                          '${product['rating']?['rate']?.toStringAsFixed(1) ?? '0.0'}',
+                          style: const TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 14,
+                          ),
+                        ),
+                        const SizedBox(width: 4),
+                        Text(
+                          '(${product['rating']?['count'] ?? 0})',
+                          style: const TextStyle(
+                            color: Colors.grey,
+                            fontSize: 12,
+                          ),
+                        ),
+                      ],
+                    ),
+                    ElevatedButton(
+                      onPressed: () {
+                        // Navigation vers la page détail du produit
+                        // Navigator.pushNamed(context, '/product/${product['id']}');
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.green,
+                        foregroundColor: Colors.white,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 16,
+                          vertical: 8,
+                        ),
+                      ),
+                      child: const Text(
+                        'Voir détails',
+                        style: TextStyle(fontWeight: FontWeight.w500),
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
