@@ -1,1 +1,8 @@
-RAPPEL : La """""CREATION""""" du DOSSIER """""venv""""" SE FAIT DANS LE """""dossier""""" NOMME """""django rest-framework"""""
+RAPPEL : 
+
+1) La """""CREATION""""" du DOSSIER """""venv""""" SE FAIT DANS LE """""dossier""""" NOMME """""django rest-framework"""""
+
+2) Le FICHIER """"".gitignore""""" se trouve dans le """""dossier""""" NOMME """""django rest-framework"""""
+
+3) Le FICHIER """""requirements.txt""""" se trouve dans le """""dossier""""" NOMME """""django rest-framework/src"""""
+
