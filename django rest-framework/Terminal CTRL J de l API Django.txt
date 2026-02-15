@@ -1,0 +1,31 @@
+1) OUVRIR """""Visual Studio Code (VSCode)""""" puis OUVRIR UN """""NOUVEAU TERMINAL Django""""" avec CTRL J puis """""LANCER l'API des PRODUITS""""" c'est-à-dire le """""Fichier JSON En Ligne des PRODUITS""""" côté du Code """""BACKEND DE DJANGO""""".
+
+2) Ensuite, voici le """""code""""" afin de """""LANCER le TERMINAL Django""""" avec CTRL J       :
+
+
+
+
+PS D:\PYTHON DJANGO HOPES\github18\Flutter_Dart_API_DJANGO\django rest-framework> py manage.py runserver localhost:8000
+C:\Program Files\Python3_12_4\python.exe: can't open file 'D:\\PYTHON DJANGO HOPES\\github18\\Flutter_Dart_API_DJANGO\\django rest-framework\\manage.py': [Errno 2] No such file or directory
+PS D:\PYTHON DJANGO HOPES\github18\Flutter_Dart_API_DJANGO\django rest-framework> 
+PS D:\PYTHON DJANGO HOPES\github18\Flutter_Dart_API_DJANGO\django rest-framework> cd ..
+PS D:\PYTHON DJANGO HOPES\github18\Flutter_Dart_API_DJANGO> py manage.py runserver localhost:8000
+C:\Program Files\Python3_12_4\python.exe: can't open file 'D:\\PYTHON DJANGO HOPES\\github18\\Flutter_Dart_API_DJANGO\\manage.py': [Errno 2] No such file or directory
+PS D:\PYTHON DJANGO HOPES\github18\Flutter_Dart_API_DJANGO> cd "django rest-framework/src"
+PS D:\PYTHON DJANGO HOPES\github18\Flutter_Dart_API_DJANGO\django rest-framework\src> py manage.py runserver localhost:8000
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 15, 2026 - 07:38:50
+Django version 5.2.7, using settings 'crud_api.settings'
+Starting development server at http://localhost:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[15/Feb/2026 07:39:22] "GET / HTTP/1.1" 200 10151
+
+
+
+
