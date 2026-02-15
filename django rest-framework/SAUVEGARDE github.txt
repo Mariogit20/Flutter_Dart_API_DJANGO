@@ -1,0 +1,117 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (main)
+$ git commit -m "un commit"
+[main c2c2fdd] un commit
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (main)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 483 bytes | 69.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:Mariogit20/Flutter_Dart_API_DJANGO.git
+   0583b6d..c2c2fdd  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (main)
+$ git commit -m "deux commit"
+[main 7b46f89] deux commit
+ 36 files changed, 31 insertions(+)
+ create mode 100644 django rest-framework/Terminal CTRL J de l API Django.docx
+ create mode 100644 django rest-framework/Terminal CTRL J de l API Django.pdf
+ create mode 100644 django rest-framework/Terminal CTRL J de l API Django.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (main)
+$ git push
+Enumerating objects: 70, done.
+Counting objects: 100% (70/70), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (54/54), done.
+Writing objects: 100% (54/54), 161.49 KiB | 558.00 KiB/s, done.
+Total 54 (delta 31), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (31/31), completed with 14 local objects.
+To github.com:Mariogit20/Flutter_Dart_API_DJANGO.git
+   c2c2fdd..7b46f89  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (main)
+$ git commit -m "trois commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (main)
+$ git checkout Dev
+Switched to branch 'Dev'
+Your branch is up to date with 'origin/Dev'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (Dev)
+$ git merge main
+Updating 0583b6d..7b46f89
+Fast-forward
+ django rest-framework/RAPPEL DOSSIER venv.txt      |   9 +++++-
+ .../Terminal CTRL J de l API Django.docx           | Bin 0 -> 22253 bytes
+ .../Terminal CTRL J de l API Django.pdf            | Bin 0 -> 139596 bytes
+ .../Terminal CTRL J de l API Django.txt            |  31 +++++++++++++++++++++
+ .../contact/__pycache__/__init__.cpython-311.pyc   | Bin 191 -> 210 bytes
+ .../src/contact/__pycache__/admin.cpython-311.pyc  | Bin 246 -> 265 bytes
+ .../src/contact/__pycache__/apps.cpython-311.pyc   | Bin 564 -> 583 bytes
+ .../src/contact/__pycache__/models.cpython-311.pyc | Bin 971 -> 990 bytes
+ .../__pycache__/serializers.cpython-311.pyc        | Bin 853 -> 872 bytes
+ .../src/contact/__pycache__/urls.cpython-311.pyc   | Bin 637 -> 656 bytes
+ .../src/contact/__pycache__/views.cpython-311.pyc  | Bin 2052 -> 2071 bytes
+ .../__pycache__/0001_initial.cpython-311.pyc       | Bin 1222 -> 1241 bytes
+ .../__pycache__/__init__.cpython-311.pyc           | Bin 202 -> 221 bytes
+ .../crud_api/__pycache__/__init__.cpython-311.pyc  | Bin 192 -> 211 bytes
+ .../crud_api/__pycache__/settings.cpython-311.pyc  | Bin 2978 -> 2997 bytes
+ .../src/crud_api/__pycache__/urls.cpython-311.pyc  | Bin 1041 -> 1060 bytes
+ .../src/crud_api/__pycache__/wsgi.cpython-311.pyc  | Bin 716 -> 735 bytes
+ .../produits/__pycache__/__init__.cpython-311.pyc  | Bin 192 -> 211 bytes
+ .../src/produits/__pycache__/admin.cpython-311.pyc | Bin 710 -> 729 bytes
+ .../src/produits/__pycache__/apps.cpython-311.pyc  | Bin 567 -> 586 bytes
+ .../produits/__pycache__/models.cpython-311.pyc    | Bin 994 -> 1013 bytes
+ .../__pycache__/serializers.cpython-311.pyc        | Bin 854 -> 873 bytes
+ .../src/produits/__pycache__/urls.cpython-311.pyc  | Bin 639 -> 658 bytes
+ .../src/produits/__pycache__/views.cpython-311.pyc | Bin 773 -> 792 bytes
+ .../__pycache__/0001_initial.cpython-311.pyc       | Bin 1384 -> 1403 bytes
+ .../0002_alter_produit_image.cpython-311.pyc       | Bin 864 -> 883 bytes
+ .../__pycache__/__init__.cpython-311.pyc           | Bin 203 -> 222 bytes
+ .../slider/__pycache__/__init__.cpython-311.pyc    | Bin 190 -> 209 bytes
+ .../src/slider/__pycache__/admin.cpython-311.pyc   | Bin 694 -> 713 bytes
+ .../src/slider/__pycache__/apps.cpython-311.pyc    | Bin 561 -> 580 bytes
+ .../src/slider/__pycache__/models.cpython-311.pyc  | Bin 766 -> 785 bytes
+ .../slider/__pycache__/serializers.cpython-311.pyc | Bin 849 -> 868 bytes
+ .../src/slider/__pycache__/urls.cpython-311.pyc    | Bin 634 -> 653 bytes
+ .../src/slider/__pycache__/views.cpython-311.pyc   | Bin 768 -> 787 bytes
+ .../__pycache__/0001_initial.cpython-311.pyc       | Bin 1146 -> 1165 bytes
+ ...0002_rename_valeur_slider_titre.cpython-311.pyc | Bin 747 -> 766 bytes
+ .../__pycache__/__init__.cpython-311.pyc           | Bin 201 -> 220 bytes
+ 37 files changed, 39 insertions(+), 1 deletion(-)
+ create mode 100644 django rest-framework/Terminal CTRL J de l API Django.docx
+ create mode 100644 django rest-framework/Terminal CTRL J de l API Django.pdf
+ create mode 100644 django rest-framework/Terminal CTRL J de l API Django.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (Dev)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Mariogit20/Flutter_Dart_API_DJANGO.git
+   0583b6d..7b46f89  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github18/Flutter_Dart_API_DJANGO/django rest-framework (Dev)
+$
